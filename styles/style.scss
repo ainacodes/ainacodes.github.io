@@ -131,6 +131,7 @@ body {
       margin-bottom: 1rem;
       padding: 0.5rem;
       border: 1px solid var(--primary-font);
+      box-shadow: 4px 4px;
       font-size: 0.9rem;
 
       .project-links {
@@ -167,8 +168,8 @@ body {
     }
 
     .project-container:hover {
-      box-shadow: 4px 4px;
-      transform: translateX(-4px) translateY(-4px);
+      box-shadow: none;
+      transform: translateX(4px) translateY(4px);
     }
   }
 }
